@@ -1,0 +1,35 @@
+#wrap {
+    width: 800px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 80px 50px 80px 50px;
+    /* 마진,패딩 : 위 오 아 왼 마진은 공간에 영향을 주지 않지만
+    패딩은 공간에 영향을 줌 */
+    box-shadow: 3px 3px 3px gray;
+    /* box-shadow: 가로 거리 세로 거리 블러정도 색상; */
+}
+
+.to {
+    font-style: italic;
+}
+
+.head {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: double gray;
+    /* double 라인은 선의 두께를 지정할 수 없음 */
+    margin-bottom: 30px;
+}
+
+.body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.from {
+    text-align: right;
+    font-style: italic;
+    margin-top: 50px;
+}

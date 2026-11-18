@@ -1,0 +1,30 @@
+#wrap {
+    width: 800px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px gray;
+    margin: 50px auto;
+    padding: 80px 50px;
+}
+
+.to {
+    font-style: italic;
+}
+
+.head {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: double gray;
+    margin-bottom: 30px;
+}
+
+.body {
+    width: 90%;
+    margin: 0 auto; 
+}
+
+.from {
+    text-align: right;
+    margin-top: 50px;
+}

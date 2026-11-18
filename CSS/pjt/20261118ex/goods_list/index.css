@@ -1,0 +1,26 @@
+#wrap {
+    width: 345px;
+    margin: 10px auto;
+}
+
+#wrap > table {
+    border-collapse: collapse;
+}
+
+#wrap > table > tbody > tr > td {
+    padding: 12px 4px;
+}
+
+#wrap > table > tbody > tr > td div:nth-child(1) img {
+    min-width: 107px; /*최소 사이즈*/
+    max-width: 107px; /*최대 사이즈*/
+}
+
+#wrap > table > tbody > tr > td div:nth-child(2) p {
+    font-size: .8em;
+    text-align: center;
+}
+
+#wrap > table > tbody > tr > td div:nth-child(2) p:nth-child(1) {
+    font-weight: bold;
+}

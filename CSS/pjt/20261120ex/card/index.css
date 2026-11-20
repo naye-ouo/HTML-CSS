@@ -1,0 +1,61 @@
+#wrap div.card_body {
+    width: 750px;
+    height: 450px;
+    margin: 100px auto;
+    background-color: #5c574b;
+    border-radius: 30px;
+    padding: 35px 35px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#wrap div.card_name p:nth-child(1) {
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+#wrap div.card_name p:nth-child(2) {
+    font-size: 1.2em;
+}
+
+#wrap div.ic_chip {
+    position: relative;
+}
+
+#wrap div.ic_chip img:nth-child(1) {
+    width: 35px;
+    position: absolute;
+    top: 80px; left: -5px;
+
+}
+
+#wrap div.ic_chip img:nth-child(2) {
+    width: 150px;
+    position: absolute;
+    top: 10px; left: 30px;
+}
+
+#wrap div.m_name {
+    position: absolute;
+    bottom: 70px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+#wrap div.red_circle {
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    background-color: rgba(255, 41, 41, 0.6);
+    position: absolute;
+    bottom: 35px; right: 100px;
+}
+
+#wrap div.orange_circle {
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    background-color: rgba(255, 174, 0, 0.6);
+    position: absolute;
+    bottom: 35px; right: 30px;
+}

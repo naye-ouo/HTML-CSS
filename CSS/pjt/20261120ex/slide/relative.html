@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>relative</title>
+
+        <style>
+
+            .box_red {
+                width: 200px; height: 200px;
+                background-color: #f00;
+                position: static;
+            }
+
+            .box_green {
+                width: 200px; height: 200px;
+                background-color: #0f0;
+                position: relative; /*상대적 위치*/
+                top: 50px;
+                left: 100px;
+                /* 보통 top 이랑 left 를 기준으로 위치를 설정 */
+            }
+
+            .box_blue {
+                width: 200px; height: 200px;
+                background-color: #00f;
+                position: absolute; /*절대적 위치*/
+                top: 50px;
+                left: 100px;
+            }
+
+            .box_black {
+                width: 200px; height: 200px;
+                background-color: #000;
+                position: fixed; /*고정 위치*/
+                top: 200px;
+                left: 500px;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        
+        <div class="box_red">
+            RED
+        </div>
+
+        <div class="box_green">
+            GREEN
+        </div>
+
+        <div class="box_blue">
+            BLUE
+        </div>
+
+        <div class="box_black">
+            BLACK
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    </body>
+</html>
